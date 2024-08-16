@@ -1,21 +1,3 @@
-.vs
-*.dll
-*.pdb
-*.cache
-bin
-*/bin
-**/bin
-**/debug
-**/obj
-*/data-mssql
-**/data-mssql
-*.user
-*.csproj.user
-.idea
-
-~$Doc.docx
-
-
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
