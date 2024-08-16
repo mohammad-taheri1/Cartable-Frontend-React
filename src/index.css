@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir.woff2") format("woff2"),
+    url("./fonts/Vazir.woff") format("woff"),
+    url("./fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+}
+
+.main-container {
+  min-height: 100vh;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: -10px 0px 25px -15px #007bff;
+  min-height: 100vh;
+}
+
+.sidebar p {
+  color: #007bff;
+}
+
+.sidebar-client-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-client-area img {
+  width: 80px;
+  border-radius: 50%;
+}
+
+.cartable-container {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.cartable-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartable-title img {
+  width: 200px;
+}
+
+.cartable-title h4 {
+  margin: 0 1rem;
+}
+ 
+.tasks-content {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.tasks-titlebar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: #343a40;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    box-shadow: 0px 0px 25px 5px #007bff;
+    min-height: unset;
+  }
+
+  .sm-disposable {
+    display: none;
+  }
+
+  .cartable-title img {
+    display: none;
+  }
+
+
+}
